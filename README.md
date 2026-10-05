@@ -1,4 +1,4 @@
-# Techbleat Global Bank - Backend
+# Enterprise Banking Platform
 
 A microservices-based banking platform built with Python (FastAPI), Java (Spring Boot), PostgreSQL, Redis, and Apache Kafka. The system handles user management, financial transactions, and activity logging through independent, event-driven services.
 
