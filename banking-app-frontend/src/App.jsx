@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 
-// Frontend is running on the 8080 port
+// We have the application running on port - 8080
 const USER_API = "http://localhost:8000";
 const TX_API = "http://localhost:8080";
 const ACTIVITY_API = "http://localhost:8001";
