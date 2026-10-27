@@ -1,9 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 
+
+
 // We have the application running on port - 8080
 const USER_API = "http://localhost:8000";
 const TX_API = "http://localhost:8080";
 const ACTIVITY_API = "http://localhost:8001";
+
+
 
 const currency = new Intl.NumberFormat("en-GB", {
   style: "currency",
