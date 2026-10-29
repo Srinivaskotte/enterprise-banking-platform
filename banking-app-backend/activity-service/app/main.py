@@ -29,7 +29,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
+# Keep retrying until the Kafka consumer is successfully created
 def kafka_consumer_loop():
     consumer = None
     while consumer is None:
