@@ -1,3 +1,4 @@
+# Defines the Docker configuration for the Python application.
 FROM python:3.11-slim
 
 WORKDIR /app
